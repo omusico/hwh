@@ -24,6 +24,15 @@ class PagesController extends Controller {
             return view("errors.404", ['activePage' => '']);
         }
     }
+
+    public function slate($which = 'current'){
+        $data['title'] = 'This Month';
+        if ($which=='next'){
+            $data['title'] = 'Next Month';
+        }
+        $data['activePage'] = 'slate';
+        return view("pages.slate", $data);
+    }
 /*
     public function index()
     {

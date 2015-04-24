@@ -12,6 +12,8 @@
 
 .fPurple{color:#7030a0;}
 
+.lowercase{text-transform:lowercase;}
+
 .error .help-block,
 .error .control-label,
 .error .radio,

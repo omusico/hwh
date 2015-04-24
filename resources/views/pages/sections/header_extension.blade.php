@@ -8,7 +8,7 @@
                             <img src="img/page1-img1.jpg" alt="photo">
                         </figure>
                         <div class="caption">
-                            <h2>pasta</h2>
+                            <h2>Health</h2>
                             <h5>Lorem ipsum dolor sit amet, con sectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </h5>
                         </div>
                     </a>
@@ -21,7 +21,7 @@
                             <img src="img/page1-img2.jpg" data-src="img/toggle_menu_icon.png" alt="photo">
                         </figure>
                         <div class="caption">
-                            <h2>pizza</h2>
+                            <h2 class="lowercase">without</h2>
                             <h5>Lorem ipsum dolor sit amet, con sectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </h5>
                         </div>
                     </a>
@@ -34,7 +34,7 @@
                             <img src="img/page1-img3.jpg" alt="photo">
                         </figure>
                         <div class="caption">
-                            <h2>fish</h2>
+                            <h2>hype</h2>
                             <h5>Lorem ipsum dolor sit amet, con sectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </h5>
                         </div>
                     </a>

@@ -13,47 +13,22 @@
                             <nav class="navbar navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
                                 <ul class="nav sf-menu clearfix">
                                     <li class="active sub-menu">
-                                        <a href="index.html">Home</a>
+                                        <a href="/">Home</a>
                                     </li>
                                     <li>
                                         <a href="index-4.html">Join!</a>
                                     </li>
                                     <li>
-                                        <a href="index-1.html">About</a>
+                                        <a href="/slate">This Month</a>
                                     </li>
                                     <li>
-                                        <a href="index-2.html">This Month</a>
-                                        <ul class="submenu">
-                                            <li>
-                                                <a href="#">um nisl</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">accumsan </a>
-                                                <ul class="submenu">
-                                                    <li>
-                                                        <a href="#">um nisl</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">la vel diam</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">d in lacus ut</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="#">la vel diam</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">d in lacus ut</a>
-                                            </li>
-                                        </ul>
+                                        <a href="/slate/next">Next Month</a>
                                     </li>
                                     <li>
-                                        <a href="index-3.html">Next Month</a>
+                                        <a href="index-1.html">About Us</a>
                                     </li>
                                     <li>
-                                        <a href="index-4.html">Contacts</a>
+                                        <a href="index-4.html">Log In</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -67,9 +42,8 @@
         <div class="wrapper">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <span class="header_address">9863 - 9867 Mill Road, Cambridge, MG09 99HT.</span>
-                        <span class="header_phone">+1 800 603 6035</span>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                        <span class="header_address">5 one hour webinars every month providing researched, vetted health and wellness info. We leave the hype behind.</span>
                     </div>
                 </div>
             </div>

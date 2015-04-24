@@ -19,19 +19,18 @@
 						</li>
 						<li>
 							<a href="#" class="color-3">
-								<p>Google+</p>
+								<p>YouTube</p>
 							</a>
 						</li>
 						<li>
 							<a href="#" class="color-4">
-								<p>LinkedIn </p>
+								<p>Pintrest </p>
 							</a>
 						</li>
 					</ul>
 				</div>
 				<div class="footer_bottom">
-					<div class="footer_privacy">Italian Restaurant &copy; <span id="copyright-year"></span> All Rights Reserved |<a href="index-5.html"> Privacy policy</a>
-						More <a rel="nofollow" href="http://www.templatemonster.com/category/italian-restaurant-website-templates/" target="_blank">Italian Restaurant Website Templates at TemplateMonster.com</a>
+					<div class="footer_privacy">Health without Hype &copy; <span id="copyright-year"></span> All Rights Reserved |<a href="index-5.html"> Privacy policy</a>
 					</div>
 				</div>
 			</div>

@@ -14,15 +14,23 @@
     <!--CSS-->
     <link rel="stylesheet" href="/css/bootstrap.css" type="text/css" media="screen" title="" charset="utf8">
     <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" title="" charset="utf8">
-    <link rel="stylesheet" href="/css/contact-form.css" type="text/css" media="screen" title="" charset="utf8">
 
+    <!-- Extra, page dependant css -->
+    @if($activePage=='home')
+        <link rel="stylesheet" href="/css/contact-form.css" type="text/css" media="screen" title="" charset="utf8">
+    @endif
+
+    @if($activePage=='slate')
+        <link rel="stylesheet" href="/css/jquery.fancybox.css" type="text/css" media="screen" title="" charset="utf8">
+    @endif
+
+    <!-- LTDC css -->
     <link rel="stylesheet" href="/css/ltdc.css">
 
     <!--JS-->
     <script src="/js/jquery.js"></script>
     <script src="/js/jquery-migrate-1.2.1.min.js"></script>
-    <script src="/js/TMForm.js"></script>
-    <script src="/js/jquery.equalheights.min.js"></script>
+
     <script>
         jQuery(document).ready(function () {
             jQuery(".toggle_nav_button").on("click", function () {
