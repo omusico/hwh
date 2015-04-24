@@ -71,11 +71,13 @@
                             <div class="caption">
                                 <div class="wrapper">
                                     <ul class="list list-1">
-                                        <li><a href="#">All the Calls</a>
+                                        <li><a href="#">5 Calls</a>
                                         </li>
                                         <li><a href="#">45 days to catch replays</a>
                                         </li>
                                         <li><a href="#">$25.00 per month</a>
+                                        </li>
+                                        <li><a href="#">&nbsp;</a>
                                         </li>
 
                                     </ul>
@@ -94,57 +96,21 @@
 
 
 
-<div class="block-2 parallax parallax-bg-2">
+<div class="block-2 parallax parallax-bg-3">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <h3 class="title title-2">Special Offer!</h3>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <h3 class="title title-2">Special Introductory Rate!</h3>
+                <h4 class="title title-1">$9.00 / month</h4>
+                <ul class="list list-1">
+                    <li><a href="#">5 Calls</a></li>
+                    <li><a href="#">45 days to catch replays</a></li>
+                    <li class="fWhite">Lock in your $9.00 per month special rate today and keep it as long as you keep your membership active.</li>
+                    <li class="text-danger fBold">That's right, as long as your membership stays active your rate will never change!</li>
+                </ul>
+                <a href="#" class="btn-default btn btn-3" style="width:50%">Lock It In!</a>
             </div>
         </div>
     </div>
 </div>
 
-<div class="block-3">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                <div class="box box-1">
-                    &nbsp;
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                <div class="box box-1">
-                    <div class="thumb-pad-3">
-                        <div class="thumbnail">
-                            <img src="img/page1-img12.jpg" alt="photo">
-                            <div class="caption">
-                                <div class="wrapper">
-                                    <ul class="list list-1">
-                                        <li><a href="#">All the Calls</a>
-                                        </li>
-                                        <li><a href="#">45 days to catch replays</a>
-                                        </li>
-                                        <li><a href="#">$9.00 per month</a>
-                                        </li>
-                                        <li><a href="#">Lock in rate for as long as you </a>
-                                        </li>
-                                        <li><a href="#">maintain your membership!</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <h4>$9.00 / month</h4>
-                    <p>Special Introductory Rate!<br />Lock in your $9.00 per month special rate today and keep it as long as you keep your membership active.  That's right, as long as your membership stays active your rate will never change!</p>
-                    <a href="#" class="btn-default btn btn-1">view more</a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                <div class="box box-1">
-                    &nbsp;
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
