@@ -13,9 +13,9 @@
 
 Route::post('join', 'JoinController@store');
 
-//Route::get('/{page?}', 'PagesController@index');
-Route::get('/', 'PagesController@index');
-Route::get('confirmation', 'PagesController@confirmation');
+Route::get('/{page?}', 'PagesController@index');
+//Route::get('/', 'PagesController@index');
+//Route::get('confirmation', 'PagesController@confirmation');
 
 
 

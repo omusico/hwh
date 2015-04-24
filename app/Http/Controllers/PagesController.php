@@ -6,7 +6,7 @@ use App\LTDC\Common\Site_Data;
 
 class PagesController extends Controller {
 
-    private $site_data;
+    //private $site_data;
 
     public function __construct(Site_Data $site_data)
     {
@@ -15,6 +15,16 @@ class PagesController extends Controller {
         //$this->packageInfo=$site_data->getPackageInfo();
     }
 
+    public function index($page = 'home')
+    {
+        try
+        {
+            return view("pages." . $page, ['activePage' => $page]);
+        } catch (\InvalidArgumentException $ignored) {
+            return view("errors.404", ['activePage' => '']);
+        }
+    }
+/*
     public function index()
     {
         $data=array();
@@ -26,5 +36,6 @@ class PagesController extends Controller {
         $data=array();
         return view('landing.confirmation', $data);
     }
+*/
 
 }
