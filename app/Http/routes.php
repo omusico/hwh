@@ -12,8 +12,10 @@
 */
 
 Route::post('join', 'JoinController@store');
+Route::post('subscribe', 'SubscriptionController@store');
 
 Route::get('slate/{which?}', 'PagesController@slate');
+Route::get('signup/{which?}', 'PagesController@signup');
 
 Route::get('/{page?}', 'PagesController@index');
 //Route::get('/', 'PagesController@index');

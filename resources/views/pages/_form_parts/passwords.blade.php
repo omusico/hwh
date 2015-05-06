@@ -1,0 +1,2 @@
+{!! Form::ltdcInput('password', 'password', Input::old('password'), 'Password', '', 'col-sm-4', 'form-control input-md', 'password', $errors) !!}
+{!! Form::ltdcInput('password_confirmation', 'password', Input::old('password_confirmation'), 'Confirm Password', '', 'col-sm-4', 'form-control input-md', 'password_confirmation', $errors) !!}

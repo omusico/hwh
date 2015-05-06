@@ -3,6 +3,7 @@
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <h3 class="title title-2">Join Us!</h3>
+                <a name="plans"></a>
             </div>
         </div>
     </div>
@@ -34,7 +35,7 @@
                     </div>
                     <h4>$5.00 / month</h4>
                     <p>Choose your favorite call each month with up to 15 days to watch the replay!</p>
-                    <a href="#" class="btn-default btn btn-1">view more</a>
+                    <a href="signup/tier1" class="btn-default btn btn-1">view more</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">

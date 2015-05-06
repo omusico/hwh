@@ -139,6 +139,7 @@ return [
         'Illuminate\Html\HtmlServiceProvider',
 
 		'Skovmand\Mailchimp\MailchimpServiceProvider',
+		'Laravel\Cashier\CashierServiceProvider',
 
 		/*
 		 * Application Service Providers...

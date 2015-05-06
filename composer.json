@@ -9,7 +9,8 @@
         "illuminate/html": "~5.0",
         "guzzlehttp/guzzle": "~5.2",
         "doctrine/dbal": "2.6.*@dev",
-	  	"skovmand/mailchimp-laravel": "1.*"
+	  	"skovmand/mailchimp-laravel": "1.*",
+	    "laravel/cashier": "~5.0"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.0",

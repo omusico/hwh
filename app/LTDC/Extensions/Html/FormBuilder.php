@@ -15,6 +15,7 @@ class FormBuilder extends IllumniateFormBuilder {
     /**
      * @param $name - name of element for form submission
      * @param $type - type of element (HTML5 input type)
+     * @param null $value - value (set to Input::old('NAME_OF_FIELD) for use with validation)
      * @param null $labelText - Label Text, if null, label construct will be omitted
      * @param null $placeholder - Placeholder text
      * @param null $label_class - Label class, if Label Text omitted, used as inner div class
@@ -24,7 +25,7 @@ class FormBuilder extends IllumniateFormBuilder {
      * @param bool $innerOnly - Does this construct have an outer div set
      * @return string
      */
-    public function ltdcInput($name, $type, $labelText=null, $placeholder = null, $label_class = null, $input_class = null, $input_id = null, $errors = null, $innerOnly = false)
+    public function ltdcInput($name, $type, $value = null, $labelText = null,  $placeholder = null, $label_class = null, $input_class = null, $input_id = null, $errors = null, $innerOnly = false)
     {
         $errorBlock=''; $extraClass='';
         if (is_object($errors) && $errors->first($name)){
@@ -37,9 +38,9 @@ class FormBuilder extends IllumniateFormBuilder {
             $label = '<label for=' . $name . ' class="' . $label_class . '">' . $labelText . '</label>';
         }
 
-        $input = '<input class="' . $input_class . $extraClass . '" id="' . $input_id . '" type=' . $type . ' placeholder="' . $placeholder . '" name="' . $name . '">';
+        $input = '<input class="' . $input_class . $extraClass . '" id="' . $input_id . '" type=' . $type . ' placeholder="' . $placeholder . '" name="' . $name . '" value="'.$value.'">';
 
-        $outerTop = '<div class="form-group form-group-sm">';
+        $outerTop = '<div class="form-group row">';
         $outerBottom = '</div>';
         $innerTop = '<div class="col-sm-8">';
         $innerBottom = '</div>';
@@ -194,4 +195,3 @@ HTML;
     }
 
 }
-

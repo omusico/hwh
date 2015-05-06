@@ -7,6 +7,8 @@
     <meta name="keywords" content="Health, Group Coaching, Hype, No Hype, Science, Medical">
     <meta name="author" content="LYNX Technology Development">
 
+    <meta name="publishable-key" content="{{ env('STRIPE_PUBLIC') }}">
+
     <!--FAVICON-->
     <link rel="icon" href="/images/ico/favicon.ico" type="image/x-icon">
     <link href="/images/ico/AHD-Favicon.png" rel="shortcut icon" />

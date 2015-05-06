@@ -24,7 +24,7 @@ include('device.min.js');
 /* Sf-menu
 ========================================================*/
 include('superfish.js');
-jQuery(function () {
+$(document).ready(function(){
 	jQuery('.sf-menu').mobileMenu();
 })
 

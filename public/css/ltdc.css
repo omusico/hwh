@@ -1,6 +1,41 @@
 .navbar{width:110px;}
 
 /*--------------------------------------------------------------------------
+	Signup Form Styles
+--------------------------------------------------------------------------*/
+
+#signup-form{margin-top:-50px;}
+#signup-form .panel{border-color:#fb8c7d;}
+#signup-form .panel-heading {
+    background: none repeat scroll 0 0 #f9604c;
+    color: #fff;
+}
+#signup-form .panel-title {
+    font-size: 26px;
+}
+.registration .panel-heading .cc-icons, .registration .panel-heading .cc-icons img {
+    float: right;
+}
+#signup-form fieldset {
+    margin-bottom: 4em;
+}
+.signup-subheading {
+    border-bottom: 1px solid #e9e9e9;
+    font-weight: 300;
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+}
+#signup-form label::after {
+    content: ":";
+}
+#signup-form label {
+    padding-top: 6px;
+}
+.alert {
+    border: 1px solid #d81f07;
+}
+
+/*--------------------------------------------------------------------------
 	LTDC Common Styles
 --------------------------------------------------------------------------*/
 

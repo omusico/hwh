@@ -16,7 +16,7 @@
                                         <a href="/">Home</a>
                                     </li>
                                     <li>
-                                        <a href="index-4.html">Join!</a>
+                                        <a href="/signup">Join!</a>
                                     </li>
                                     <li>
                                         <a href="/slate">This Month</a>
@@ -43,7 +43,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                        <span class="header_address">5 one hour webinars every month providing researched, vetted health and wellness info. We leave the hype behind.</span>
+                        <span class="header_address">5 one hour live coaching sessions every month providing researched, vetted health and wellness info. We leave the hype behind.</span>
                     </div>
                 </div>
             </div>

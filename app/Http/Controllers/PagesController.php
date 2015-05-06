@@ -33,6 +33,12 @@ class PagesController extends Controller {
         $data['activePage'] = 'slate';
         return view("pages.slate", $data);
     }
+
+    public function signup($level = 'tier1'){
+        $data['level'] = $level;
+        $data['activePage'] = 'signup';
+        return view("pages.signup", $data);
+    }
 /*
     public function index()
     {
